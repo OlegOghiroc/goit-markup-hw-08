@@ -1,0 +1,38 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+}
+
+/* ==========conteiners========== */
+.company-description__conteiner,
+.section-hero__conteiner,
+.header__conteiner,
+.what-we-do__conteiner,
+.our-team__conteiner,
+.choice__conteiner,
+.our-clients__conteiner,
+.footer__conteiner {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+}
+
+/* ========Title======== */
+.title,
+.text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}

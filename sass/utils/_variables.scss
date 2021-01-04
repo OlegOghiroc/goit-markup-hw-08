@@ -1,0 +1,20 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+/* primary text color #212121 */
+/* secondary text #757575 */
+/* background color #E5E5E5 */
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+
+@mixin displeyflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

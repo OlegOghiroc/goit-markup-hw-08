@@ -1,0 +1,36 @@
+/* logo */
+.logo {
+  display: flex;
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.studio--top {
+  color: var(--primary-text-color);
+}
+
+.studio--bottom {
+  display: flex;
+  color: #ffffff;
+}
+
+.main__logo {
+  display: block;
+  // margin-right: 93px;
+  @media screen and (min-width: 480px) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+.logo__footer {
+  display: block;
+
+  @media screen and (min-width: 480px) {
+    margin-bottom: 20px;
+  }
+}
