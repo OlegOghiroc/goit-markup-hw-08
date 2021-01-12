@@ -21,7 +21,7 @@
 .main__logo {
   display: block;
   // margin-right: 93px;
-  @media screen and (min-width: 480px) {
+  @media screen and (max-width: 767px) {
     padding-top: 16px;
     padding-bottom: 16px;
   }
@@ -30,7 +30,7 @@
 .logo__footer {
   display: block;
 
-  @media screen and (min-width: 480px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 20px;
   }
 }
