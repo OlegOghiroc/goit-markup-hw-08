@@ -3,6 +3,7 @@
 }
 
 .menu__conteiner {
+  display: none;
   padding-top: 60px;
   padding-bottom: 60px;
   position: absolute;
@@ -11,6 +12,27 @@
   width: 100%;
   background: #ffffff;
   z-index: 88888;
+
+  &.is-open {
+    display: block;
+  }
+}
+// menu__button
+.menu__button {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  background: transparent;
+}
+.menu__button .icon-close {
+  display: none;
+}
+
+.menu__button.is-open .icon-menu {
+  display: none;
+}
+.menu__button.is-open .icon-close {
+  display: block;
 }
 
 .site-nav {
