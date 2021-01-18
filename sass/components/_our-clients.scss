@@ -3,7 +3,7 @@
 .our-clients__title {
   margin: 0px;
   font-weight: 700;
-  font-size: 36px;
+
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
@@ -16,12 +16,21 @@
   @media screen and (min-width: 768px) {
     margin-bottom: 30px;
   }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    font-size: 36px;
+  }
 }
 
 .our-clients__section {
   @media screen and (max-width: 1119px) {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
@@ -38,15 +47,23 @@
     flex-wrap: wrap;
     margin: -15px;
   }
+
+  @media screen and (min-width: 1200px) {
+    flex-wrap: wrap;
+  }
 }
 
 .client-list__item {
   @media screen and (max-width: 767px) {
     margin: 15px;
+    max-width: 210px;
   }
   @media screen and (min-width: 768px) {
     margin: 15px;
-    width: 226px;
+    max-width: 226px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 170px;
   }
 }
 
@@ -54,7 +71,6 @@
   display: flex;
   align-items: center;
 
-  width: 210px;
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -71,5 +87,8 @@
 
   @media screen and (min-width: 768px) {
     width: 226px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 170px;
   }
 }

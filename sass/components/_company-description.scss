@@ -1,18 +1,12 @@
 /* company description */
 .company-description__section {
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 1119px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-
-  @media screen and (min-width: 480px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
-  @media screen and (min-width: 768px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
@@ -22,15 +16,29 @@
     flex-wrap: wrap;
     margin: -15px;
   }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 }
 
 .company-description__items {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1119px) {
     max-width: 354px;
     margin: 15px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .company-description__items {
+    flex-basis: calc((100% - 90px) / 4);
 
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}
 .company-description__items:not(:first-child) {
   @media screen and (max-width: 767px) {
     margin-top: 30px;
@@ -80,16 +88,3 @@
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-
-// .company-description__list {
-//   display: flex;
-//   flex-wrap: wrap;
-// }
-
-// .company-description__items {
-//   flex-basis: calc((100% - 90px) / 4);
-
-//   &:not(:last-child) {
-//     margin-right: 30px;
-//   }
-// }
