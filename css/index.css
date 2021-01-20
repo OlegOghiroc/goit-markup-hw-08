@@ -38,6 +38,12 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* ==========conteiners========== */
 .company-description__conteiner,
 .section-hero__conteiner,
@@ -805,7 +811,7 @@ ul {
   background: #f5f4fa;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 1119px) {
   .our-team__section {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -819,7 +825,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .our-team__list {
     margin-top: 30px;
   }
@@ -852,6 +858,12 @@ ul {
   .our-team__items {
     margin: 15px;
     max-width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .our-team__items {
+    max-width: 270px;
   }
 }
 

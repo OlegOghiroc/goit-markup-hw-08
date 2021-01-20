@@ -18,7 +18,7 @@
 .our-team__section {
   background: #f5f4fa;
 
-  @media screen and (min-width: 480px) {
+  @media screen and (max-width: 1119px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -29,7 +29,7 @@
 }
 
 .our-team__list {
-  @media screen and (min-width: 480px) {
+  @media screen and (max-width: 767px) {
     margin-top: 30px;
   }
 
@@ -54,6 +54,10 @@
   @media screen and (min-width: 768px) {
     margin: 15px;
     max-width: 354px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 270px;
   }
 }
 
