@@ -52,6 +52,7 @@ ul {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  width: 100%;
 }
 
 @media screen and (min-width: 480px) {
@@ -887,7 +888,10 @@ ul {
 }
 
 .subsribe__input {
-  width: 358px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  max-width: 450px;
   height: 50px;
   padding: 15px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
