@@ -44,6 +44,10 @@ img {
   height: auto;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 /* ==========conteiners========== */
 .company-description__conteiner,
 .section-hero__conteiner,
@@ -1393,6 +1397,12 @@ img {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .subsribe__input {
+    width: 450px;
+  }
+}
+
 .subsribe-form__conteiner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1467,6 +1477,13 @@ img {
           transform: scale(1);
   -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 480px) {
+  .backdrop {
+    padding: 30px 15px;
+  }
 }
 
 .is-hidden {
@@ -1478,29 +1495,30 @@ img {
 }
 
 .modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  padding: 40px;
   background: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) {
   .modal {
-    max-width: 100%;
-    max-height: 90%;
+    margin: auto;
+    padding: 40px 15px;
+    max-width: 450px;
   }
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (min-width: 480px) {
   .modal {
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -45%);
+            transform: translate(-50%, -45%);
     width: 450px;
-    min-height: 609px;
+    max-height: 609px;
   }
 }
 

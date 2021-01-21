@@ -208,6 +208,9 @@
   @media screen and (max-width: 1119px) {
     margin-bottom: 20px;
   }
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
 }
 
 .subsribe-form__conteiner {

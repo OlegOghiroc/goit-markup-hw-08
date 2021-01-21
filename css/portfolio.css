@@ -45,6 +45,10 @@ img {
   height: auto;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 /* ==========conteiners========== */
 .company-description__conteiner,
 .section-hero__conteiner,
@@ -978,6 +982,12 @@ img {
 @media screen and (max-width: 1119px) {
   .subsribe__input {
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .subsribe__input {
+    width: 450px;
   }
 }
 
