@@ -218,6 +218,10 @@ img {
     border: none;
     background: transparent;
   }
+  .menu__button:hover,
+  .menu__button :focus {
+    fill: var(--accent-color);
+  }
   .menu__button .icon-close {
     display: none;
   }

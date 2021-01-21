@@ -10,6 +10,11 @@
     padding: 0px;
     border: none;
     background: transparent;
+
+    &:hover,
+    :focus {
+      fill: var(--accent-color);
+    }
   }
   .menu__button .icon-close {
     display: none;
