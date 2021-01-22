@@ -385,7 +385,7 @@ body.modal-open {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1119px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .site-contact__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -457,7 +457,7 @@ body.modal-open {
   }
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .choice__section {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -579,6 +579,7 @@ body.modal-open {
 @media screen and (min-width: 1200px) {
   .option-list__items {
     max-width: 370px;
+    max-height: 404px;
     margin: 15px;
   }
 }
@@ -691,7 +692,7 @@ body.modal-open {
   }
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .address-and-slogan__conteier {
     padding-bottom: 60px;
   }
@@ -709,7 +710,7 @@ body.modal-open {
   }
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .address__conteiner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -733,7 +734,7 @@ body.modal-open {
   }
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .address__list-conteiner {
     margin-top: 20px;
   }
@@ -816,7 +817,6 @@ body.modal-open {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 60px;
   }
 }
 
@@ -835,9 +835,9 @@ body.modal-open {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
     margin-left: 70px;
   }
 }
@@ -921,7 +921,7 @@ body.modal-open {
   color: #ffffff;
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .subsribe__title {
     text-align: center;
   }
@@ -979,7 +979,7 @@ body.modal-open {
   color: rgba(255, 255, 255, 0.6);
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .subsribe__input {
     margin-bottom: 20px;
   }
@@ -988,6 +988,12 @@ body.modal-open {
 @media screen and (min-width: 480px) {
   .subsribe__input {
     width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subsribe__input {
+    width: 358px;
   }
 }
 

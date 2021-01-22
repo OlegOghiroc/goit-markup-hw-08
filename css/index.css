@@ -384,7 +384,7 @@ body.modal-open {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1119px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .site-contact__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -533,7 +533,7 @@ body.modal-open {
   color: #ffffff;
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .hero {
     max-width: 360px;
     font-size: 26px;
@@ -587,7 +587,7 @@ body.modal-open {
 }
 
 /* company description */
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .company-description__section {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -625,7 +625,7 @@ body.modal-open {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1119px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .company-description__items {
     max-width: 354px;
     margin: 15px;
@@ -704,7 +704,7 @@ body.modal-open {
 }
 
 /* what we do */
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .what-we-do {
     display: none;
   }
@@ -819,7 +819,7 @@ body.modal-open {
   background: #f5f4fa;
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .our-team__section {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -973,7 +973,7 @@ body.modal-open {
   }
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .our-clients__section {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1103,7 +1103,7 @@ body.modal-open {
   }
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .address-and-slogan__conteier {
     padding-bottom: 60px;
   }
@@ -1121,7 +1121,7 @@ body.modal-open {
   }
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .address__conteiner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1145,7 +1145,7 @@ body.modal-open {
   }
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .address__list-conteiner {
     margin-top: 20px;
   }
@@ -1228,7 +1228,6 @@ body.modal-open {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 60px;
   }
 }
 
@@ -1247,9 +1246,9 @@ body.modal-open {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
     margin-left: 70px;
   }
 }
@@ -1333,7 +1332,7 @@ body.modal-open {
   color: #ffffff;
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .subsribe__title {
     text-align: center;
   }
@@ -1391,7 +1390,7 @@ body.modal-open {
   color: rgba(255, 255, 255, 0.6);
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .subsribe__input {
     margin-bottom: 20px;
   }
@@ -1400,6 +1399,12 @@ body.modal-open {
 @media screen and (min-width: 480px) {
   .subsribe__input {
     width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subsribe__input {
+    width: 358px;
   }
 }
 
@@ -1505,7 +1510,6 @@ body.modal-open {
   .modal {
     margin: auto;
     padding: 40px 15px;
-    max-width: 450px;
   }
 }
 
@@ -1519,6 +1523,12 @@ body.modal-open {
             transform: translate(-50%, -45%);
     width: 450px;
     max-height: 609px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
   }
 }
 
@@ -1649,6 +1659,11 @@ body.modal-open {
           transform: translateY(-50%);
 }
 
+.checkbox__input:checked + .checkbox__label::before {
+  background-color: var(--accent-color);
+  background-image: url(../Images/icons/iconcheck.svg);
+}
+
 .checkbox__policy {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1691,16 +1706,19 @@ body.modal-open {
   background-image: url(../Images/icons/checkbox-border.svg);
 }
 
-@media screen and (max-width: 1119px) {
+@media screen and (max-width: 1199px) {
   .checkbox__label {
     font-size: 12px;
     line-height: 1.17;
   }
 }
 
-.checkbox__input:checked + .checkbox__label::before {
-  background-color: var(--accent-color);
-  background-image: url(../Images/icons/iconcheck.svg);
+@media screen and (min-width: 1200px) {
+  .checkbox__label {
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .submit-button {
