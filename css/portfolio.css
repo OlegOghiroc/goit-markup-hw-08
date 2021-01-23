@@ -692,6 +692,14 @@ body.modal-open {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .address-and-slogan__conteier {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+
 @media screen and (max-width: 1199px) {
   .address-and-slogan__conteier {
     padding-bottom: 60px;
